@@ -16,10 +16,16 @@
 
 	--max-width: 1400px;
 
+	--hover-size: 1.5rem;
+	--hover-font: "neuebit";
+
+
 	--cursor-hover: pointer;
 
 	font-family: var(--body-font);
 	font-weight: 500;
+
+
 
 	color: var(--text-color);
 	list-style: none;
@@ -29,11 +35,11 @@
 
 * a:hover {
 	cursor: var(--cursor-hover);
+
 }
 
-em {
+strong {
 	font-weight: bold;
-	font-style: normal;
 }
 
 h1 {
@@ -80,7 +86,6 @@ footer {
 	background-color: white;
 }
 
-
 .header li,
 footer li {
 	list-style: none;
@@ -112,6 +117,12 @@ footer li a {
 
 .spanner {
 	width: 100%;
+}
+
+.fartrait {
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
 .blurb {
