@@ -1,6 +1,5 @@
 * {
 	box-sizing: border-box;
-	font-size: 18px;
 	padding: 0rem;
 	margin: 0rem;
 
@@ -32,6 +31,12 @@
 
 	cursor: cell;
 }
+
+:root {
+	font-size: 18px;
+}
+
+
 
 * a:hover {
 	cursor: var(--cursor-hover);
@@ -68,7 +73,6 @@ p {
 	max-width: var(--max-width);
 }
 .legit-marquee {
-	margin-top: 1rem;
 	fill: var(--text-color);
 }
 .header,
@@ -120,13 +124,24 @@ footer li a {
 }
 
 .fartrait {
-	display: flex;
-	align-items: center;
-	justify-content: center;
+	width: 450px;
+	max-width: 100%;
+	margin: auto;
+}
+.fartrait img {
+	max-width: 100%;
+	display: block;
+	margin: auto;
+}
+
+.fartrait .caption {
+	display: block;
+	text-align: center;
+	font-size: .25rem;
 }
 
 .blurb {
-	font-size: 2rem;
+	font-size: clamp(1rem, 5vw, 2rem);
 	width: 50%;
 	display: block;
 }
