@@ -1,0 +1,158 @@
+@font-face {
+   font-family: "Formula Condensed";
+   font-weight: 300;
+   src: url(./fonts/FormulaCondensed-Light.woff2);
+}
+
+@font-face {
+   font-family: "Formula Condensed";
+   font-weight: 500;
+   src: url(./fonts/FormulaCondensed-Regular.woff2);
+}
+
+@font-face {
+   font-family: "Formula Condensed";
+   font-weight: 600;
+   src: url(./fonts/FormulaCondensed-Bold.woff2);
+}
+
+@font-face {
+   font-family: "Formula Condensed";
+   font-weight: 800;
+   src: url(./fonts/FormulaCondensed-Black.woff2);
+}
+
+@font-face {
+   font-family: "Lora";
+   src: url(./fonts/Lora-VariableFont_wght.ttf);
+   font-style: normal;
+}
+
+@font-face {
+   font-family: "Lora";
+   src: url(./fonts/Lora-Italic-VariableFont_wght.ttf);
+   font-style: italic;
+}
+
+@font-face {
+   font-family: "Editorial new";
+   src: url(./fonts/EditorialNew-Variable.ttf);
+   font-style: normal;
+}
+
+
+
+/* Mondwest */
+
+@font-face {
+   font-family: "Mondwest";
+   font-weight: 400;
+   src: url(./fonts/Mondwest-Regular.woff2);
+}
+
+@font-face {
+   font-family: "Mondwest";
+   font-weight: 600;
+   src: url(./fonts/Mondwest-Bold.woff2);
+}
+
+
+
+/* Neuebit */
+
+@font-face {
+   font-family: "Neuebit";
+   font-weight: 400;
+   src: url(./fonts/NeueBit-Regular.woff2);
+}
+
+@font-face {
+   font-family: "Neuebit";
+   font-weight: 600;
+   src: url(./fonts/NeueBit-Bold.woff2);
+}
+
+@font-face {
+   font-family: "Neuebit";
+   font-weight: 400;
+   src: url(./fonts/NeueBit-Regular.woff2);
+}
+
+
+
+/* NEUE MONTREAL  */
+
+@font-face {
+   font-family: "Neue Montreal";
+   font-weight: 300;
+   src: url(./fonts/NeueMontreal-Light.woff2);
+}
+
+@font-face {
+   font-family: "Neue Montreal";
+   font-weight: 500;
+   src: url(./fonts/NeueMontreal-Regular.woff2);
+}
+
+@font-face {
+   font-family: "Neue Montreal";
+   font-weight: 600;
+   src: url(./fonts/NeueMontreal-Bold.woff2);
+}
+
+@font-face {
+   font-family: "Neue Montreal";
+   font-weight: 300;
+   src: url(./fonts/NeueMontreal-LightItalic.woff2);
+   font-style: italic;
+}
+
+@font-face {
+   font-family: "Neue Montreal";
+   font-weight: 500;
+   src: url(./fonts/NeueMontreal-Italic.woff2);
+   font-style: italic;
+}
+
+@font-face {
+   font-family: "Neue Montreal";
+   font-weight: 600;
+   src: url(./fonts/NeueMontreal-BoldItalic.woff2);
+   font-style: italic;
+}
+
+
+
+/* NEUE MACHINA  */
+
+@font-face {
+   font-family: "Neue Machina";
+   font-weight: 400;
+   src: url(./fonts/NeueMachina-Light.woff2);
+}
+
+@font-face {
+   font-family: "Neue Machina";
+   font-weight: 500;
+   src: url(./fonts/NeueMachina-Regular.woff2);
+}
+
+@font-face {
+   font-family: "Neue Machina";
+   font-weight: 800;
+   src: url(./fonts/NeueMachina-Ultrabold.woff2);
+}
+
+@font-face {
+   font-family: "Neue Machina";
+   font-weight: 300;
+   src: url(./fonts/NeueMachina-Ultralight.woff2);
+}
+
+@font-face {
+   font-family: "Neue Machina";
+   font-weight: 900;
+   src: url(./fonts/NeueMachina-Black.woff2);
+}
+
+

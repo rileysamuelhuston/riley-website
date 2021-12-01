@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>{{ title }}</title>
+		<link rel="stylesheet" href="/css/style.css" />
+		<link rel="stylesheet" href="/css/fonts.css" />
+		<link rel="shortcut icon" href="/images/favicon.png" />
+	</head>
+	<body>
+		   {% if page.url == "/" %}
+					<svg
+						class="legit-marquee"
+						viewBox="0 0 1560 120"
+						content="Hello there!"
+						contentrepeat="21"
+						speed="2"
+						textsize="12"
+						pathd="m-24,70.32085c378.79766,-125.71877 669.77334,41.3089 414,18.04691c-255.77334,-23.26199 890.50648,-117.20712 1224.00012,14.60455"
+					></svg>
+			{% endif %}
+		<div class="grid">
+			<div class="header">
+				<span><a class="logo" href="/">Riley Huston ●■</a></span>
+				<ul>
+					<li><a href="/">about</a></li>
+					<li><a href="/contact/index.html">contact</a></li>
+				</ul>
+			</div>
+
+	{{ content | safe }}
+
+			<footer>
+				<span><a class="logo" href="/">Riley Huston ●■</a></span>
+				<ul>
+					<li><a href="/">↑ back to top</a></li>
+					<li><a href="/">about</a></li>
+					<li><a href="/">contact</a></li>
+				</ul>
+			</footer>
+
+	</body>
+</html>

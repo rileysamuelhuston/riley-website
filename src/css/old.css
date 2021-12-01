@@ -1,0 +1,181 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+ul {
+	list-style: none;
+}
+
+html {
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	--heading-font: "Mondwest";
+	--body-font: "Editorial New";
+	--subtitle-font: "Neuebit";
+
+	--logo-size: 36px;
+	--heading-size: 36px;
+
+	--color-dark-mode: white;
+	--background-dark-mode: #1c1c1c;
+}
+
+.light-mode {
+	--color-light-mode: black;
+	--background-light-mode: #eeeeee;
+}
+
+
+body {
+	margin: 0;
+	flex: 0 1 auto;
+	align-self: auto;
+	width: 100%;
+	max-width: 1200px;
+	height: 100%;
+	max-height: 600px;
+   padding: 60px 180px;
+	font-family: var(--body-font);
+	font-weight: 500;
+	background: var(--background-dark-mode);
+	color: var(--color-dark-mode);
+}
+
+
+em {
+	font-weight: 100;
+	font-style: normal;
+}
+h1 {
+	font-family: var(--heading-font);
+	font-weight: 600;
+	margin-bottom: 18px;
+	font-size: 42px;
+}
+
+.header-marquee {
+	font-family: var(--heading-font);
+	font-weight: 300;
+}
+
+h2 {
+	font-family: var(--heading-font);
+	font-weight: 500;
+	font-size: 36px;
+}
+
+p {
+	font-size: 18px;
+	-webkit-hyphens: auto;
+	-ms-hyphens: auto;
+	hyphens: auto;
+}
+
+.page-container {
+	display: flex;
+	flex-direction: row-reverse;
+	flex-wrap: wrap;
+	width: 100%;
+	max-width: 1200px;
+}
+
+.column {
+	display: flex;
+	flex-direction: column;
+	flex-basis: 100%;
+	flex: 1;
+	min-width: 350px;
+}
+
+.nav-column {
+	align-items: center;
+	margin-bottom: 60px;
+}
+
+.logo {
+	width: 100px;
+	margin-bottom: 10px;
+	font-family: var(--heading-font);
+	font-weight: 600;
+	font-size: var(--logo-size);
+}
+
+nav {
+	font-family: "Neuebit";
+	font-weight: 400;
+	font-size: 36px;
+}
+
+nav ul {
+	list-style: none;
+	padding-right: 50px;
+}
+
+.navlink {
+	text-decoration: none;
+	color: black;
+}
+
+.postcontent {
+	max-width: 480px;
+	margin-bottom: 50px;
+}
+
+.postcontent img {
+	width: 75%;
+}
+
+.postblock {
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.postblock ul {
+	  columns: 2;
+  -webkit-columns: 2;
+  -moz-columns: 2;
+}
+
+.postblock ul li a {
+	text-decoration: none;
+	color: white;
+}
+
+.postblock ul a:hover {
+	font-weight: 600;
+
+}
+
+.blurb {
+	font-family: var(--body-font);
+	font-size: var(--logo-size);
+	border-top: 1px var(--color-dark-mode) solid;
+}
+
+.blurb em {
+	font-family: var(--heading-font);
+	font-size: var(--heading-size);
+	color: #f6ff51;
+}
+
+@media screen and (max-width: 376px) {
+	body {
+		padding: 0px;
+	}
+
+	.page-container {
+		margin: auto;
+	}
+
+	.content-column {
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+}
