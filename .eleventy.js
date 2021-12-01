@@ -24,7 +24,7 @@ module.exports = function (eleventyConfig) {
 		passthroughFilecopy: true,
 		dir: {
 			input: "src",
-			output: "public",
+			output: "docs",
 		},
 	};
 };
