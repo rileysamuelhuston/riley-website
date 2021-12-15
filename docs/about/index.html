@@ -21,27 +21,36 @@
 				</ul>
 			</div>
 
-	<p>Coming soon</p>
-<svg width="754" height="754" viewBox="0 0 754 754" fill="none" xmlns="http://www.w3.org/2000/svg">
-<circle cx="377" cy="377" r="376.5" stroke="black"/>
-</svg>
-<p><strong>Hello. I’m Riley.</strong><br />
-I’m an industrial design student at the University of
-Washington. I enjoy playing trumpet, video games, as
-well as cooking things. I also like baking. Sometimes
-I’ll visit home where I get to see my dog. I’ve also
-started sorting my LEGO collection... I’ll let you know
-how that goes.</p>
+	<h1>About</h1>
+<div class="small-section"></div>
+<p>Who the heck am I?</p>
 
 
 			<footer>
 				<span><a class="logo" href="/">Riley Huston ⬤■</a></span>
 				<ul>
-					<li><a href="/">↑ back to top</a></li>
+					<li><button onclick="topFunction()" class="buttonTop" title:"Back to top">↑ back to top</p></li>
 					<li><a href="/">about</a></li>
 					<li><a href="/">contact</a></li>
 				</ul>
 			</footer>
 
 	</body>
+	<script type="text/javascript">
+function click (e) {
+  if (!e)
+    e = window.event;
+  if ((e.type && e.type == "contextmenu") || (e.button && e.button == 2) || (e.which && e.which == 3)) {
+    if (window.opera)
+      window.alert("");
+    return false;
+  }
+}
+if (document.layers)
+  document.captureEvents(Event.MOUSEDOWN);
+document.onmousedown = click;
+document.oncontextmenu = click;
+</script>
+
+<script src="/js/back-to-top.js"></script>
 </html>

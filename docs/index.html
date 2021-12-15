@@ -80,15 +80,11 @@
       </a>
 </div>
 <div class="grid-item">
-<a href="/projects/self-checkout/"><img src="/images/self-checkout-machine-redesign/self-checkout-machine-redesign.png" alt="">Self-Checkout Machine Redesign
-      </a>
-</div>
-<div class="grid-item">
 <a href="/projects/scissors/"><img src="/images/prototype-scissors/prototype-scissors.png" alt="">Prototype Scissors
       </a>
 </div>
 <div class="grid-item">
-<a href="/projects/skigoggles/"><img src="/images/ski-goggles/ski-goggles.png" alt="">Ski Goggles
+<a href="/projects/bool/"><img src="/images/a-bread-steamer/a-bread-steamer.png" alt="">A Bread Steamer
       </a>
 </div>
 
@@ -101,11 +97,28 @@
 			<footer>
 				<span><a class="logo" href="/">Riley Huston ⬤■</a></span>
 				<ul>
-					<li><a href="/">↑ back to top</a></li>
+					<li><button onclick="topFunction()" class="buttonTop" title:"Back to top">↑ back to top</p></li>
 					<li><a href="/">about</a></li>
 					<li><a href="/">contact</a></li>
 				</ul>
 			</footer>
 
 	</body>
+	<script type="text/javascript">
+function click (e) {
+  if (!e)
+    e = window.event;
+  if ((e.type && e.type == "contextmenu") || (e.button && e.button == 2) || (e.which && e.which == 3)) {
+    if (window.opera)
+      window.alert("");
+    return false;
+  }
+}
+if (document.layers)
+  document.captureEvents(Event.MOUSEDOWN);
+document.onmousedown = click;
+document.oncontextmenu = click;
+</script>
+
+<script src="/js/back-to-top.js"></script>
 </html>
