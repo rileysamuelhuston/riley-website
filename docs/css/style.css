@@ -81,15 +81,29 @@ strong {
 
 h1 {
 	font-size: 4rem;
+	hyphens: none;
+	line-height: 3.5rem;
+	grid-column: 1 / span 2;
 }
 
 h2 {
+	font-size: calc(var(--body-size) + .25rem );
 	margin-bottom: 1rem;
+	hyphens: none;
 }
 
 h3 {
+	font-size: var(--body-size);
 	font-weight: 300;
+	hyphens: none;
 }
+
+/* H4 aka in-text heading. Just bold with space after. Basically H2 but bold */
+h4 {
+	font-weight: bold;
+	font-size: calc(var(--body-size) + .25rem );
+}
+
 p {
 	hyphens: auto;
 }
@@ -281,7 +295,7 @@ footer {
 	max-width: 450px;
 }
 
-@media screen and (max-width: 1224px) {
+@media screen and (max-width: 924px) {
 	.blurb {
 		width: 100%;
 	}

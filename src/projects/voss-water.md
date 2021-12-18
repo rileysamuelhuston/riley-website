@@ -2,6 +2,7 @@
 postTitle: A Package for Voss Water
 date: 2019-12-09
 images: 4
+projectDate: "December 13, 2019"
 projectTimeline: "3 weeks"
 toolsUsed: "Illustrator, Laser Cutter, X-Acto Knife"
 ---
