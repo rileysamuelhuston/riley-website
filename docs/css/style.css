@@ -3,7 +3,7 @@
 	padding: 0rem;
 	margin: 0rem;
 
-	--body-font: "Neue Montreal";
+	--body-font: "neue montreal";
 	--body-size: 1rem;
 
 	--logo-size: 1rem;
@@ -11,20 +11,16 @@
 
 	--blurb-size: 2rem;
 
-	--text-color: #0038ff;
-
+	--text-color: #000;
 	--max-width: 1400px;
 
 	--hover-size: 1.5rem;
 	--hover-font: "neuebit";
 
-
 	--cursor-hover: pointer;
 
 	font-family: var(--body-font);
 	font-weight: 500;
-
-
 
 	color: var(--text-color);
 	list-style: none;
@@ -34,12 +30,10 @@
 
 :root {
 	font-size: 18px;
-
-	
 }
 
 button {
-		background: none;
+	background: none;
 	color: inherit;
 	border: none;
 	padding: 0;
@@ -49,30 +43,29 @@ button {
 }
 
 /* ===== Scrollbar CSS ===== */
-  /* Firefox */
-  * {
-    scrollbar-width: auto;
-    scrollbar-color: #0038ff #ffffff;
-  }
+/* Firefox */
+* {
+	scrollbar-width: auto;
+	scrollbar-color: #0038ff #ffffff;
+}
 
-  /* Chrome, Edge, and Safari */
-  *::-webkit-scrollbar {
-    width: 16px;
-  }
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+	width: 16px;
+}
 
-  *::-webkit-scrollbar-track {
-    background: #ffffff;
-  }
+*::-webkit-scrollbar-track {
+	background: #ffffff;
+}
 
-  *::-webkit-scrollbar-thumb {
-    background-color: #0038ff;
-    border-radius: 10px;
-    border: 3px solid #ffffff;
-  }
+*::-webkit-scrollbar-thumb {
+	background-color: #0038ff;
+	border-radius: 10px;
+	border: 3px solid #ffffff;
+}
 
 * a:hover {
 	cursor: var(--cursor-hover);
-
 }
 
 strong {
@@ -87,7 +80,7 @@ h1 {
 }
 
 h2 {
-	font-size: calc(var(--body-size) + .25rem );
+	font-size: calc(var(--body-size) + 0.25rem);
 	margin-bottom: 1rem;
 	hyphens: none;
 }
@@ -101,7 +94,7 @@ h3 {
 /* H4 aka in-text heading. Just bold with space after. Basically H2 but bold */
 h4 {
 	font-weight: bold;
-	font-size: calc(var(--body-size) + .25rem );
+	font-size: calc(var(--body-size) + 0.25rem);
 }
 
 p {
@@ -166,6 +159,12 @@ footer li a {
 	width: 100%;
 }
 
+section {
+	padding: 5rem 0px;
+	width: 100%;
+	grid-column: 1 / span 2;
+}
+
 .small-section {
 	padding: 1rem;
 	width: 100%;
@@ -189,7 +188,7 @@ footer li a {
 .fartrait .caption {
 	display: block;
 	text-align: center;
-	font-size: .25rem;
+	font-size: 0.25rem;
 }
 
 .blurb {
