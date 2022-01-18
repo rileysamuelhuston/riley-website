@@ -1,0 +1,57 @@
+---
+layout: base.liquid
+---
+<style>
+	*{
+   --background-color: black;
+      --text-color: #ffff;
+   }
+
+   .header {
+      background-color: black;
+   }
+
+* {
+	scrollbar-color: #ffffff ;
+}
+
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+	width: 16px;
+}
+
+*::-webkit-scrollbar-track {
+	background: black;
+}
+
+*::-webkit-scrollbar-thumb {
+	background-color: #ffffff;
+	border-radius: 10px;
+	border: 3px solid #000000;
+}
+
+</style>
+
+<div class="project" style=>
+<h1>{{ postTitle | safe }}</h1>
+<h2>{{ projectDate }}</h2>
+<img class="project-image" src="/images/{{ postTitle | slug }}/{{ postTitle | slug }}.png" alt="" />
+<div class="project-info">
+	<h3>Timeline: </h3> {{ projectTimeline | safe }} <br><br>
+	<h3>Tools Used:</h3> {{ toolsUsed | safe }}
+</div>
+	{{ content | safe }}
+</div>
+
+
+
+<div class="nextLink">
+	{%- assign posturls = collections.projects | map: "url" -%} {%- for
+	post in collections.projects -%} {%- if post.url == page.url %} {%-
+	assign next_i = forloop.index0 | plus: 1 %} {%- assign prev_i =
+	forloop.index0 | minus: 1 %} {%- if forloop.first == false %}
+	<a href="{{ posturls[prev_i] }}" style="float: Left">&larr; Previous</a>
+	{%- endif %} {%- if forloop.last == false %}
+	<a href="{{ posturls[next_i] }}" style="float: right">Next &rarr;</a>
+	{%- endif %} {%- endif %} {%- endfor %}
+</div>

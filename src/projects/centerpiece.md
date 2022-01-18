@@ -5,6 +5,8 @@ projectDate: "December 14, 2021"
 images: 4
 projectTimeline: "4 weeks"
 toolsUsed: "Research, Figma, Rhino, Keyshot, Pencil & Paper, InDesign, Photoshop, 3D-Printer, Woodshop..."
+layout: darkmode.liquid
+
 ---
 
 This was the final project in DESIGN 316: Introduction to Industrial Design. We were prompted to create a lighting product that would meet the requirements of the GIA Student Excellence in Design competition guidelines. This was a partner project, and my partner was <a href="https://cadenwakefield.com" target="_blank">Caden Wakefield</a>.
