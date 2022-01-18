@@ -2,10 +2,12 @@
 layout: base.liquid
 ---
 
-
 <!DOCTYPE html>
 <html lang="en">
 	<head>
+		<meta name="description" content="I’m Riley Huston, an industrial design student at UW. This is my website." />
+		<meta name="keywords" content="Design, Industrial Design, Portfolio, Designer, Washington, Kirkland, Lighting, Centerpiece, BOOL, Student, University of Washington, UW ID, IDSA, " />
+		<meta name="author" content="Riley Huston" />
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -15,30 +17,25 @@ layout: base.liquid
 		<link rel="shortcut icon" href="/images/favicon.png" />
 	</head>
 	<body>
-    
-<div class="section">
-				<div class="blurb">
-
-					
-
-					<p>
-						<strong>Hello. I’m Riley.</strong><br />
-						I’m an industrial design student at the University of
-						Washington. I enjoy playing trumpet, video games, as
-						well as cooking things. I also like baking. Sometimes
-						I’ll visit home where I get to see my dog. I’ve also
-						started sorting my LEGO collection... I’ll let you know
-						how that goes.
-					</p>
-				</div>
+		<div class="section">
+			<div class="blurb">
+				<p>
+					<strong>Hello. I’m Riley.</strong><br />
+					I’m an industrial design student at the University of
+					Washington. I enjoy playing trumpet, video games, as well as
+					cooking things. I also like baking. Sometimes I’ll visit
+					home where I get to see my dog. I’ve also started sorting my
+					LEGO collection... I’ll let you know how that goes.
+				</p>
 			</div>
+		</div>
 
-			<div class="section"></div>
-			<h2>PROJECTS</h2>
+		<div class="section"></div>
+		<h2>PROJECTS</h2>
 
-			<div class="content-grid">
-				{{ content | safe }}
-			</div>
+		<div class="content-grid">
+			{{ content | safe }}
+		</div>
 	</body>
-<script src="https://cdn.jsdelivr.net/gh/olivernorred/legit-marquees/legit-marquees.js"></script>
+	<script src="https://cdn.jsdelivr.net/gh/olivernorred/legit-marquees/legit-marquees.js"></script>
 </html>
